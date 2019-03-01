@@ -8,8 +8,21 @@
 	position: relative;
 }
 
+#tab0 { 
+	position:absolute;left:25px;
+}
+
+.jumbotron {
+    margin-top: -30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
 #landing-image{
-	background-image: url("../images/landing4.jpg");
+	background-image: url("../images/cc1.jpg");
 	background-repeat: no-repeat;
 	background-position:center bottom;
 	background-attachment: fixed;
@@ -20,63 +33,75 @@
 }
 
 #landing-container{
-	top:40%;
-	background-color: rgba(255,255,255,0.5);
+	top:70px;
 	text-align: center;	
 }
 
 #landing-image1{
-	background-image: url("../images/landing2.jpg");
+	background-image: url("../images/landing21.jpg");
 	background-repeat: no-repeat;
 	background-position:center bottom;
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
-	height: 20vh;
+	height: 27vh;
 	padding-left: 0px;
 }
-#landing-image0{
-	background-image: url("../images/ffff.jpg");
+
+#landing-image5{
+	background-image: url("../images/wabun.jpg");
 	background-repeat: no-repeat;
 	background-position:center bottom;
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
-	height: 20vh;
+	height: 27vh;
 	padding-left: 0px;
+}
+
+#landing-image0{
+	background-image: url("../images/wabun1.jpg");
+	background-repeat: no-repeat;
+	background-position:center bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 27vh;
+	padding-left: 0px;
+	padding-top: 0px;
 }
 #landing-image2{
-	background-image: url("../images/landing6.jpg");
+	background-image: url("../images/dc2.jpg");
 	background-repeat: no-repeat;
 	background-position:center bottom;
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
-	height: 20vh;
+	height: 27vh;
 	padding-left: 0px;
 }
 
 #landing-image3{
-	background-image: url("../images/landing10.jpg");
+	background-image: url("../images/wisco2.jpg");
 	background-repeat: no-repeat;
 	background-position:center bottom;
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
-	height: 20vh;
+	height: 27vh;
 	padding-left: 0px;
-	/* opacity:0.8;
-	filter: alpha(opacity=80)	 */
+	opacity:0.92;
+	/*filter: alpha(opacity=80)	 */
 }
 
 #landing-image4{
-	background-image: url("../images/fff.jpg");
+	background-image: url("../images/wisco1.jpg");
 	background-repeat: no-repeat;
 	background-position:center bottom;
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
-	height: 20vh;
+	height: 50vh;
 	padding-left: 0px;
 }
 
